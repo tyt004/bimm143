@@ -1,0 +1,27 @@
+---
+title: "Class06_Homework"
+author: "Tiffany"
+date: "10/22/2019"
+output: html_document
+---
+
+Create fucntion with working snippets
+```{r}
+#Protein_plot function takes a protein file from PDB and creates a plot of its Bfactor vs Residue. This analysis will help us understand proteins's interactions.
+
+library(bio3d)# download r package
+protein_plot<- function (x){ #input is x = protein file name
+  z<-read.pdb(x) #reads protein data bank file
+z.chainA<-trim.pdb(z, chain="A", elety="CA")#trims the pdb
+z.b<-z.chainA$atom$b #selects data
+plotb3(z.b, sse=z.chainA, typ="l", ylab="Bfactor")#plots data as a scatterplot with a line. The ouput is a scatter plot of Bfactor vs Residue
+}
+```
+
+Test the function to see if they produce the same results as orginal script
+```{r}
+protein_plot("4AKE") #How to use: type out function, insert protein file name, and execute script
+protein_plot("1AKE")
+protein_plot("1E4Y")
+```
+
