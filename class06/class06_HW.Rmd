@@ -2,7 +2,7 @@
 title: "Class06_Homework"
 author: "Tiffany"
 date: "10/22/2019"
-output: html_document
+output: github_document
 ---
 
 Create fucntion with working snippets
