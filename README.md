@@ -2,7 +2,7 @@
 
 This is my work from [BIMM 143 at UC San Diego](https://bioboot.github.io/bimm143_F19/).
 
-##Content
+## Content
 - class05: [R graphics](https://github.com/tyt004/bimm143/blob/master/class05/class05.md)
 - class06: [Writing R Functions](https://github.com/tyt004/bimm143/blob/master/class06/class-6-project.md)
 - class07: [R Packages](https://github.com/tyt004/bimm143/blob/master/class07/class07.md)
