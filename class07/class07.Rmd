@@ -2,7 +2,7 @@
 title: "Class 7 R functions and packages"
 author: "Tiffany"
 date: "10/22/2019"
-output: html_document
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
@@ -24,12 +24,11 @@ rescale(c(1,10,5,NA,6))
 ```
 
 
-```{r}
+```{r},eval= FALSE
 rescale2(c(1:10, "barry"))
-
 ```
 
-```{r}
+```{r}, eval= FALSE
 rescale(c(1:10, "barry"))
 ```
 
@@ -147,7 +146,7 @@ sum(is.na(x)& is.na(y))
 ```
 
 
-```{r}
+```{r}, eval= FALSE
 both_na2(x,y3)
 ```
 
@@ -202,7 +201,7 @@ hw<- read.csv(url)
 
 
 
-```{r}
+```{r},eval= FALSE
 install.packages("datapasta")
 ```
 
