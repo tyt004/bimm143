@@ -2,7 +2,7 @@
 title: "class09"
 author: "Tiffany"
 date: "10/29/2019"
-output: html_document
+output: github_document
 ---
 
 ```{r}
@@ -203,7 +203,7 @@ First the original data
 ```
 
 Let's see the if the PCA improves or 
-```{r}
+```{r}, eval=FALSE
 wisc.pr.hclust<-hclust(dist(wisc.pr))
 ```
 
