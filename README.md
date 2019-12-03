@@ -4,9 +4,9 @@ This is my work from [BIMM 143 at UC San Diego](https://bioboot.github.io/bimm14
 
 ##Content
 - class05: [R graphics](https://github.com/tyt004/bimm143/blob/master/class05/class05.md)
-- class06: [Writing R Functions] (https://github.com/tyt004/bimm143/blob/master/class06/class-6-project.md)
+- class06: [Writing R Functions](https://github.com/tyt004/bimm143/blob/master/class06/class-6-project.md)
 - class07: [R Packages](https://github.com/tyt004/bimm143/blob/master/class07/class07.md)
-- class08: [Machine Learning] (https://github.com/tyt004/bimm143/blob/master/Class08/class08.md)
+- class08: [Machine Learning](https://github.com/tyt004/bimm143/blob/master/Class08/class08.md)
 - class09: [Mini Project](https://github.com/tyt004/bimm143/blob/master/class09/class09.md)
 - class11: [Structural Bioinfomatic](https://github.com/tyt004/bimm143/blob/master/class11/class11.md)
 - class12: [Drug Discovery and Design](https://github.com/tyt004/bimm143/blob/master/class12/class-12.md)
