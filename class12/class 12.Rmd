@@ -1,0 +1,71 @@
+---
+title: "Class 12: Structural Bioinformatics II"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+##Preping for docking
+We want to produce a protein-only PDB file and a drug only PDB file.
+
+```{r}
+library(bio3d)
+#download the pdb file
+get.pdb("1hsg")
+```
+
+```{r}
+pdb <- read.pdb("1hsg.pdb")
+protein<- atom.select(pdb, "protein", value= TRUE)
+write.pdb(protein, file= "1hsg_protein.pdb")
+```
+
+and for the ligand
+```{r}
+ligand <- atom.select(pdb, "ligand", value = TRUE)
+write.pdb(ligand, file = "1hsg_ligand.pdb")
+```
+
+
+```{r}
+pdb
+```
+
+q1 non-prtein residues 
+ans: Non-protein/nucleic resid values: [ HOH (127), MK1 (1) ]
+
+q2 yes you can see the whole of the binding site. the resolution is too high for the hydrogen atoms to appear in crystal structures
+
+##process our docking results
+```{r}
+library(bio3d)
+res <- read.pdb("all.pdbqt", multi=TRUE)
+write.pdb(res, "1hsg_protein.pdb")
+```
+
+```{r}
+library(bio3d)
+res <- read.pdb("all.pdbqt", multi=TRUE)
+write.pdb(res, "results.pdb")
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

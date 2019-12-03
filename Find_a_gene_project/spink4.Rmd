@@ -1,0 +1,43 @@
+---
+title: Spink4
+output: github_document
+---
+
+```{r}
+library(bio3d)
+```
+
+```{r}
+pdb<-read.fasta("spink4.fasta")
+
+```
+```{r}
+pdb2<-seqidentity(pdb)
+```
+```{r}
+heatmap(pdb2, cexRow = 1, cexCol = 1)
+```
+
+
+
+
+
+
+```{r}
+con<-consensus(pdb)
+print(con$seq)
+```
+
+
+```{r}
+blast.pdb(con$seq)
+```
+
+```{r}
+ids <- c("1TGS_I", "1CGJ_I", "1CGI_I", "2LEO_A", "2KMO_A","1LDT_L", "6KBR_C", "2JXD_A")
+```
+
+```{r}
+pdb.annotate(ids)
+```
+
