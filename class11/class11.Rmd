@@ -77,7 +77,7 @@ pdb<-read.pdb("1hsg")
 
 
 
-```{r}
+```{r}, eval=FALSE
 ligand<-
 ```
 
