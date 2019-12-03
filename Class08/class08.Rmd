@@ -2,7 +2,7 @@
 title: "Class08"
 author: "Tiffany"
 date: "10/24/2019"
-output: html_document
+output: github_document
 ---
 
 ```{r}
@@ -168,7 +168,7 @@ attributes(pca)
 ```
 
 
-```{r}
+```{r}eval= FALSE
 ## lets do PCA
 pca <- prcomp(t(mydata), scale=TRUE)
 ## A basic PC1 vs PC2 2-D plot
