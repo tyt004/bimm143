@@ -14,14 +14,14 @@ library(RColorBrewer)
 ```
 
 
-```{r}
+```{r}, eval=FALSE
 library(RCy3)
 
 # Test the connection to Cytoscape.
 cytoscapePing()
 ```
 
-```{r}
+```{r}, eval=FALSE
 # Check the version
 cytoscapeVersionInfo()
 

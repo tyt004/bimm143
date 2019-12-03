@@ -1,4 +1,4 @@
-Untitled
+class15
 ================
 
 ``` r
@@ -546,29 +546,17 @@ keggresids
 pathview(gene.data=foldchanges, pathway.id=keggresids, species="hsa")
 ```
 
-    ## Info: Downloading xml files for hsa04640, 1/1 pathways..
-
-    ## Info: Downloading png files for hsa04640, 1/1 pathways..
-
     ## 'select()' returned 1:1 mapping between keys and columns
 
     ## Info: Working in directory C:/Users/Tiffany/Desktop/bimm143_f19/bimm143_githubF19/class15
 
     ## Info: Writing image file hsa04640.pathview.png
 
-    ## Info: Downloading xml files for hsa04630, 1/1 pathways..
-
-    ## Info: Downloading png files for hsa04630, 1/1 pathways..
-
     ## 'select()' returned 1:1 mapping between keys and columns
 
     ## Info: Working in directory C:/Users/Tiffany/Desktop/bimm143_f19/bimm143_githubF19/class15
 
     ## Info: Writing image file hsa04630.pathview.png
-
-    ## Info: Downloading xml files for hsa00140, 1/1 pathways..
-
-    ## Info: Downloading png files for hsa00140, 1/1 pathways..
 
     ## Warning in structure(x$children, class = "XMLNodeList"): Calling 'structure(NULL, *)' is deprecated, as NULL cannot have attributes.
     ##   Consider 'structure(list(), *)' instead.
@@ -1266,10 +1254,6 @@ pathview(gene.data=foldchanges, pathway.id=keggresids, species="hsa")
 
     ## Info: Writing image file hsa00140.pathview.png
 
-    ## Info: Downloading xml files for hsa04142, 1/1 pathways..
-
-    ## Info: Downloading png files for hsa04142, 1/1 pathways..
-
     ## 'select()' returned 1:1 mapping between keys and columns
 
     ## Info: Working in directory C:/Users/Tiffany/Desktop/bimm143_f19/bimm143_githubF19/class15
@@ -1277,10 +1261,6 @@ pathview(gene.data=foldchanges, pathway.id=keggresids, species="hsa")
     ## Info: Writing image file hsa04142.pathview.png
 
     ## Info: some node width is different from others, and hence adjusted!
-
-    ## Info: Downloading xml files for hsa04330, 1/1 pathways..
-
-    ## Info: Downloading png files for hsa04330, 1/1 pathways..
 
     ## 'select()' returned 1:1 mapping between keys and columns
 
