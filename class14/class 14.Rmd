@@ -243,7 +243,7 @@ save our results
 write.csv(res, file="expression_reslts.csv")
 ```
 
-```{r}
+```{r}, eval=FALSE
 view(expression_results.csv)
 ```
 
